@@ -33,4 +33,4 @@ Legends in Map
 
 ### Target Users
 
-![capture](https://github.com/lowtsusiang/testing/blob/master/animation.gif)
+![capture](https://github.com/lowtsusiang/testing/blob/master/Image/animation.gif?raw=true)
