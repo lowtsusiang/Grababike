@@ -23,7 +23,7 @@ Time Selector
 
 ### Ouputs
 
-![Chicago map](C:/Users/ts/Documents/R/Image/Map.png)
+![Chicago map](https://github.com/lowtsusiang/testing/blob/master/Map.PNG?raw=true)
 Chicago Map
 
 ![Chicago map](https://drive.google.com/file/d/10LVk3Nwu1iXokVICs4Dj2FKAF-YE5M_s/view?usp=sharing)
@@ -33,3 +33,4 @@ Legends in Map
 
 ### Target Users
 
+![capture](https://github.com/lowtsusiang/testing/blob/master/animation.gif)
