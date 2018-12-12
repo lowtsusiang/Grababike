@@ -17,7 +17,8 @@ Whatever your preferences and reasons may be, the app plans to give you some ind
 Here are 3 steps to help you navigate the <app name>
 Step 1: 
   Choose the date in the date selector
- ![Date selector](https://github.com/lowtsusiang/testing/blob/master/Image/DateSelector.PNG?raw=true)
+
+![Date selector](https://github.com/lowtsusiang/testing/blob/master/Image/DateSelector.PNG?raw=true)
 Date Selector
 
 Step 2:
