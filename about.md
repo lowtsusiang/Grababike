@@ -22,15 +22,18 @@ Date Selector
 
 Step 2:
  Select the time frame at the time selector
+ 
  ![Time Selector](https://github.com/lowtsusiang/testing/blob/master/Image/GenderSelector.PNG?raw=true)
 Time Selector
 
 Step 3:
   View the map!
+  
   ![Chicago map](https://github.com/lowtsusiang/testing/blob/master/Map.PNG?raw=true)
   Chicago Map
   
   The legneds will tell you more.
+  
   ![Legends](https://github.com/lowtsusiang/testing/blob/master/Image/legend.PNG?raw=true)
   Legends in Map
 
