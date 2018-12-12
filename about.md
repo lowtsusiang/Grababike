@@ -10,27 +10,43 @@ This shiny app demonstrates the descriptive analysis result of the bicycle shari
 
 ## Inputs and Outputs
 
-Chicago bicycle sharing data in 2017 is used in this project. Destination station is the core variable for this analaysis
-
-Users can select the date & time that they wish to monitor, the shiny app will show the number of riders' final destination in chicago map. Different legends to indicate different number of bikers. 
-
-### Inputs
-![Date selector](C:/Users/ts/Documents/R/Image/DateSelector.png)
+To bike or not to bike, that is the question!
+If you’re planning to bike around Chicago city, then <app name> can help you to identify the time and destination that is suitable to your biking needs.
+Naturally, we have different preferences and reasons for choosing to cycle. Some may ride the bike to help them reach their destination and some may use it as a way to tour the city/for sightseeing.
+Whatever your preferences and reasons may be, the app plans to give you some indication on the best time and location to cycle based on a comprehensive analysis of cycling trends in 2017. 
+Here are 3 steps to help you navigate the <app name>
+Step 1: 
+  Choose the date in the date selector
+ ![Date selector](https://github.com/lowtsusiang/testing/blob/master/Image/DateSelector.PNG?raw=true)
 Date Selector
 
-![Time Selector](C:/Users/ts/Documents/R/Image/TimeSelector.png)
+Step 2:
+ Select the time frame at the time selector
+ ![Time Selector](https://github.com/lowtsusiang/testing/blob/master/Image/GenderSelector.PNG?raw=true)
 Time Selector
 
-### Ouputs
+Step 3:
+  View the map!
+  ![Chicago map](https://github.com/lowtsusiang/testing/blob/master/Map.PNG?raw=true)
+  Chicago Map
+  
+  The legneds will tell you more.
+  ![Legends](https://github.com/lowtsusiang/testing/blob/master/Image/legend.PNG?raw=true)
+  Legends in Map
 
-![Chicago map](https://github.com/lowtsusiang/testing/blob/master/Map.PNG?raw=true)
-Chicago Map
+With that, let’s pedal on to the map tab
 
-![Chicago map](https://drive.google.com/file/d/10LVk3Nwu1iXokVICs4Dj2FKAF-YE5M_s/view?usp=sharing)
 
-![Legends](C:/Users/ts/Documents/R/Image/Legends.png)
-Legends in Map
 
 ### Target Users
 
-![capture](https://github.com/lowtsusiang/testing/blob/master/Image/animation.gif?raw=true)
+![capture](https://github.com/lowtsusiang/testing/blob/master/Image/main.gif?raw=true)
+Who need this app?
+1) individual bikers
+    - we tell you where & when less crowded bike station
+    - we show you female & male bikers cycling behavior
+2) Business 
+    - targeted advertisement can be put on at the crowded according our indicator
+    - retail businesss can be started at hotspots bike station
+3) Bike rental company
+    - we show the time period that has less demand of bike rental, you can schedule maintenance for the rental bike
