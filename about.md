@@ -3,7 +3,7 @@ title: "Bicycle Sharing Statistics"
 runtime: shiny
 output: html_document
 ---
-#Chicago Bike Sharing 
+## Chicago Bike Sharing 
 
 This shiny app demonstrates the descriptive analysis result of the bicycle sharing in Chicago, in the year 2017.
 
