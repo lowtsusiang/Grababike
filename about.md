@@ -15,6 +15,7 @@ If you’re planning to bike around Chicago city, then <app name> can help you t
 Naturally, we have different preferences and reasons for choosing to cycle. Some may ride the bike to help them reach their destination and some may use it as a way to tour the city/for sightseeing.
 Whatever your preferences and reasons may be, the app plans to give you some indication on the best time and location to cycle based on a comprehensive analysis of cycling trends in 2017. 
 Here are 3 steps to help you navigate the <app name>
+
 Step 1: 
   Choose the date in the date selector
 
