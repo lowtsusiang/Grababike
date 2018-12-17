@@ -1,29 +1,16 @@
 ---
 title: "#Developing Shiny App: Grab a Bike"
 author: "Fig & Co| 
-i. Noraisha Yusuf (WQD180008)| 
-ii.Low Tsu Siang (WQD180072)| 
-iii.Kaveenaasvini (WQD180017)| 
-iv. Prabavathi (WQD180030)"
+  i. Noraisha Yusuf (WQD180008)| 
+  ii.Low Tsu Siang (WQD180072)| 
+  iii.Kaveenaasvini (WQD180017)| 
+  iv. Prabavathi (WQD180030)"
 date: "December 13, 2018"
 output:
   html_document: default
   word_document: default
 ---
 
-
-####A group assignment for WQD7001: Principle Data Science, University Malaya
-``` r
-# The easiest way to get ggplot2 is to install the whole tidyverse:
-install.packages("tidyverse")
-
-# Alternatively, install just ggplot2:
-install.packages("ggplot2")
-
-# Or the the development version from GitHub:
-# install.packages("devtools")
-devtools::install_github("tidyverse/ggplot2")
-```
 
 > **Introduction**
 
@@ -53,7 +40,9 @@ In order to answer our questions, we have to map out and categorize the populari
 *Note:* On this page, the focus is on describing our data preparation and exploratory data analysis. For the Shiny App codes, the ui.r and server.r files are available in the same github account.
 
 [RMarkdown html link](http://htmlpreview.github.io/?https://github.com/lowtsusiang/Grababike/blob/master/RR.html).
+
 [Shiny App link](https://wqd180008.shinyapps.io/grababike/).
+
 [Rpub lin](http://rpubs.com/A1sha/Grababike).
 
 *Note:* Please refer to the ui.r and server.r files which are available in the same github account, for the Shiny App construction. 
