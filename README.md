@@ -128,7 +128,7 @@ summary(dataset)
 
 We can observe that the peak number of trips is similar for both genders, form mid-June to October 2017. The bike trips for male can reached more than 10,000 bike trips in a day during peak season. 
 
-```{r}
+``` r
 library(ggplot2)
 
 dately <- dataset %>%
