@@ -8,7 +8,17 @@ output:
 ---
 
 ####A group assignment for WQD7001: Principle Data Science, University Malaya
+``` r
+# The easiest way to get ggplot2 is to install the whole tidyverse:
+install.packages("tidyverse")
 
+# Alternatively, install just ggplot2:
+install.packages("ggplot2")
+
+# Or the the development version from GitHub:
+# install.packages("devtools")
+devtools::install_github("tidyverse/ggplot2")
+```
 
 > **Introduction**
 
