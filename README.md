@@ -6,6 +6,7 @@ output:
   html_document: default
   word_document: default
 ---
+[RMarkdown html link](http://htmlpreview.github.io/?https://github.com/lowtsusiang/Grababike/blob/master/RR.html).
 
 ####A group assignment for WQD7001: Principle Data Science, University Malaya
 ``` r
