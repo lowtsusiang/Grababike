@@ -1,0 +1,12 @@
+name: grababike
+title: grababike
+username:
+account: wqd180008
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 618183
+bundleId: 1768372
+url: https://wqd180008.shinyapps.io/grababike/
+when: 1545053833.11534
+asMultiple: FALSE
+asStatic: FALSE
