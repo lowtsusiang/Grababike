@@ -1,16 +1,3 @@
----
-title: "#Developing Shiny App: Grab a Bike"
-author: "Fig & Co| 
-  i. Noraisha Yusuf (WQD180008)| 
-  ii.Low Tsu Siang (WQD180072)| 
-  iii.Kaveenaasvini (WQD180017)| 
-  iv. Prabavathi (WQD180030)"
-date: "December 13, 2018"
-output:
-  html_document: default
-  word_document: default
----
-
 
 > **Introduction**
 
