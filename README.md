@@ -30,6 +30,6 @@ In order to answer our questions, we have to map out and categorize the populari
 
 [Shiny App link](https://wqd180008.shinyapps.io/grababike/).
 
-[Rpub lin](http://rpubs.com/A1sha/Grababike).
+[Rpub link](http://rpubs.com/A1sha/Grababike).
 
 *Note:* Please refer to the ui.r and server.r files which are available in the same github account, for the Shiny App construction. 
