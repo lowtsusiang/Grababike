@@ -58,7 +58,7 @@ library(tidyverse)
 ```{r}
 glimpse(dataset)
 ```
-![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/glimpse.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/glimpse.PNG?raw=true)
 
 3. There are no missing values found in the dataset. 
 ```{r}
