@@ -2,9 +2,7 @@
 title: "#Developing Shiny App: Grab a Bike"
 author: "Fig & Co| i. Noraisha Yusuf (WQD180008)| ii.Low Tsu Siang (WQD180072)| iii.Kaveenaasvini (WQD180017)| Iv. Prabavathi (WQD180030)"
 date: "December 13, 2018"
-output:
-  html_document: default
-  word_document: default
+
 ---
 
 ####A group assignment for WQD7001: Principle Data Science, University Malaya
