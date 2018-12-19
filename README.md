@@ -82,7 +82,7 @@ dataset <- dataset[c(10,20,21,22,8)]
 dataset <- separate(dataset, stoptime, into=c("arr_date","time"),sep=" ")
 head(dataset)
 ```
-![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/dataset.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/dataset.PNG?raw=true)
 
 6. For the purpose of our analysis, we extracted the arrival hour information from time variable
 ```{r}
