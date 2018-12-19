@@ -105,7 +105,7 @@ dataset <- dataset %>%
   summarise(total_trips = n())%>%
   glimpse()
 ```
-![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/str.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/str.PNG?raw=true)
 
 > **Exploratory Data Analysis**
 1. We explored the statistical information of our processed dataset. 
@@ -117,7 +117,7 @@ dataset <- dataset %>%
 ```{r}
 summary(dataset)
 ```
-![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/summary.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/summary.PNG?raw=true)
 
 2. Visualizing distribution of total number of bike trips by gender factor in 2017. 
 
@@ -132,7 +132,7 @@ ggplot(dately, aes(x=arr_date,y=total))+
   geom_jitter(aes(color = gender))+
   theme_light()
 ```
-![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/ggplot.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/ggplot.PNG?raw=true)
 
 
 3. Visualizing bike trips according to bike stations
@@ -147,7 +147,7 @@ sample_n(station, 10)
 library(treemap)
 treemap(station,index = "to_station_name",vSize = "total")
 ```
-![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/treemap.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/treemap.PNG?raw=true)
 
 4. Visualizing the peak number of bike trips by date
 
@@ -164,7 +164,7 @@ ggplot(dateterm, aes(x=arr_date,y=total,fill=total))+
   coord_polar()+
   labs(title="Polar Area Diagram", subtitle="Daily total number of trips", x="Date", y="Total trips")
 ```
-![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/polararea-month.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/polararea-month.PNG?raw=true)
 
 5. Visualizing the number of trips around the 24 hours duration
 
@@ -182,7 +182,7 @@ ggplot(hourly, aes(x=arr_hour,y=total,fill=total))+
   labs(title="Polar Area Diagram", subtitle="Hourly number of trips", x="Hour", y="Total trips")
   
 ```
-![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/polararea-hour.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/polararea-hour.PNG?raw=true)
 
 
 A quick look at the Grab a Bike app
