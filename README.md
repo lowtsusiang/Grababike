@@ -8,6 +8,7 @@ output:
 ---
 
 ####A group assignment for WQD7001: Principle Data Science, University Malaya
+
 [Rpub link](http://rpubs.com/A1sha/Grababike).
 
 > **Introduction**
@@ -65,7 +66,7 @@ glimpse(dataset)
 ```{r}
 colSums(is.na(dataset))
 ```
-![capture](https://github.com/lowtsusiang/testing/blob/master/Image/colSum.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/colSums.PNG?raw=true)
 
 4. Aligning with our objective, we filtered the dataset further based on these variables
   + stoptime: _the time when the bike trips end_
