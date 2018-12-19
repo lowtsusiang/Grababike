@@ -60,7 +60,7 @@ library(tidyverse)
 ```{r}
 glimpse(dataset)
 ```
-![capture](https://github.com/lowtsusiang/testing/blob/master/Image/glimpse.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/glimpse.gif?raw=true)
 
 3. There are no missing values found in the dataset. 
 ```{r}
@@ -84,7 +84,7 @@ dataset <- dataset[c(10,20,21,22,8)]
 dataset <- separate(dataset, stoptime, into=c("arr_date","time"),sep=" ")
 head(dataset)
 ```
-![capture](https://github.com/lowtsusiang/testing/blob/master/Image/dataset.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/dataset.gif?raw=true)
 
 6. For the purpose of our analysis, we extracted the arrival hour information from time variable
 ```{r}
@@ -107,7 +107,7 @@ dataset <- dataset %>%
   summarise(total_trips = n())%>%
   glimpse()
 ```
-![capture](https://github.com/lowtsusiang/testing/blob/master/Image/str.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/str.gif?raw=true)
 
 > **Exploratory Data Analysis**
 1. We explored the statistical information of our processed dataset. 
@@ -119,7 +119,7 @@ dataset <- dataset %>%
 ```{r}
 summary(dataset)
 ```
-![capture](https://github.com/lowtsusiang/testing/blob/master/Image/summary.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/summary.gif?raw=true)
 
 2. Visualizing distribution of total number of bike trips by gender factor in 2017. 
 
@@ -134,7 +134,7 @@ ggplot(dately, aes(x=arr_date,y=total))+
   geom_jitter(aes(color = gender))+
   theme_light()
 ```
-![capture](https://github.com/lowtsusiang/testing/blob/master/Image/ggplot.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/ggplot.gif?raw=true)
 
 
 3. Visualizing bike trips according to bike stations
@@ -149,7 +149,7 @@ sample_n(station, 10)
 library(treemap)
 treemap(station,index = "to_station_name",vSize = "total")
 ```
-![capture](https://github.com/lowtsusiang/testing/blob/master/Image/treemap.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/treemap.gif?raw=true)
 
 4. Visualizing the peak number of bike trips by date
 
@@ -166,7 +166,7 @@ ggplot(dateterm, aes(x=arr_date,y=total,fill=total))+
   coord_polar()+
   labs(title="Polar Area Diagram", subtitle="Daily total number of trips", x="Date", y="Total trips")
 ```
-![capture](https://github.com/lowtsusiang/testing/blob/master/Image/polararea-month.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/polararea-month.gif?raw=true)
 
 5. Visualizing the number of trips around the 24 hours duration
 
@@ -184,12 +184,12 @@ ggplot(hourly, aes(x=arr_hour,y=total,fill=total))+
   labs(title="Polar Area Diagram", subtitle="Hourly number of trips", x="Hour", y="Total trips")
   
 ```
-![capture](https://github.com/lowtsusiang/testing/blob/master/Image/polararea-hour.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/polararea-hour.gif?raw=true)
 
 
 A quick look at the Grab a Bike app
 
-![capture](https://github.com/lowtsusiang/testing/blob/master/Image/main.gif?raw=true)
+![capture](https://github.com/lowtsusiang/Grababike/blob/master/Image/main.gif?raw=true)
 
 *Note:* Please refer to the ui.r and server.r files which are available in the same github account, for the Shiny App construction. 
 
