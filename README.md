@@ -11,12 +11,14 @@ output:
 [Rpub link](http://rpubs.com/A1sha/Grababike).
 
 > **Introduction**
+
 Bike sharing culture is on the rise particularly in urban cities. Many urbanites have adopted this mode of transport. It provides an alternative means of travelling that is cheaper, healthier and environmentally friendly. 
 
 The City of Chicago launched Divvy, a new bike share system designed to connect people to transit, and to make short one-way trips across town easy. The Divvy bikes are gaining more popularity since its establishment in 2013.
 
 
 > **Question**
+
 The Divvy bikes has an impressive amount of 592 bike stations in Chicago city. We were particularly interested with the number of trips at these locations in 2017. When and where do bikers normally ride their rented Divvy bikes? 
 
 We believed that these information would be useful to bikers, nearby and new businesses and the bike rental company itself. In view that these interested parties would be driven by different motives, it is essential that the shiny app allows the users to explore the bike trips in accordance with their preferences. 
@@ -24,6 +26,7 @@ It is challenging to visualize the distribution of bike trips across the 592 Div
 
 
 > **Goal**
+
 In order to answer our questions, we have to map out and categorize the popularity of the bike stations based on:
 <ul>
   <li>specific date</li>
@@ -36,6 +39,7 @@ In order to answer our questions, we have to map out and categorize the populari
 
 
 > **Data Preparation**
+
 We obtained the dataset from https://www.kaggle.com/yingwurenjian/chicago-divvy-bicycle-sharing-data. The same dataset can also be obtained directly from Divvy Bike Share's website. 
 
 1. Load the data. In view that our focus is only for 2017, we subset the data by filtering the year column to 2017 only. 
@@ -55,11 +59,13 @@ library(tidyverse)
 ```{r}
 glimpse(dataset)
 ```
+![capture](https://github.com/lowtsusiang/testing/blob/master/Image/glimpse.gif?raw=true)
 
 3. There are no missing values found in the dataset. 
 ```{r}
 colSums(is.na(dataset))
 ```
+![capture](https://github.com/lowtsusiang/testing/blob/master/Image/colSum.gif?raw=true)
 
 4. Aligning with our objective, we filtered the dataset further based on these variables
   + stoptime: _the time when the bike trips end_
@@ -77,7 +83,7 @@ dataset <- dataset[c(10,20,21,22,8)]
 dataset <- separate(dataset, stoptime, into=c("arr_date","time"),sep=" ")
 head(dataset)
 ```
-
+![capture](https://github.com/lowtsusiang/testing/blob/master/Image/dataset.gif?raw=true)
 
 6. For the purpose of our analysis, we extracted the arrival hour information from time variable
 ```{r}
@@ -100,7 +106,7 @@ dataset <- dataset %>%
   summarise(total_trips = n())%>%
   glimpse()
 ```
-
+![capture](https://github.com/lowtsusiang/testing/blob/master/Image/str.gif?raw=true)
 
 > **Exploratory Data Analysis**
 1. We explored the statistical information of our processed dataset. 
@@ -112,7 +118,7 @@ dataset <- dataset %>%
 ```{r}
 summary(dataset)
 ```
-
+![capture](https://github.com/lowtsusiang/testing/blob/master/Image/summary.gif?raw=true)
 
 2. Visualizing distribution of total number of bike trips by gender factor in 2017. 
 
@@ -127,7 +133,7 @@ ggplot(dately, aes(x=arr_date,y=total))+
   geom_jitter(aes(color = gender))+
   theme_light()
 ```
-
+![capture](https://github.com/lowtsusiang/testing/blob/master/Image/ggplot.gif?raw=true)
 
 
 3. Visualizing bike trips according to bike stations
@@ -142,7 +148,7 @@ sample_n(station, 10)
 library(treemap)
 treemap(station,index = "to_station_name",vSize = "total")
 ```
-
+![capture](https://github.com/lowtsusiang/testing/blob/master/Image/treemap.gif?raw=true)
 
 4. Visualizing the peak number of bike trips by date
 
@@ -159,7 +165,7 @@ ggplot(dateterm, aes(x=arr_date,y=total,fill=total))+
   coord_polar()+
   labs(title="Polar Area Diagram", subtitle="Daily total number of trips", x="Date", y="Total trips")
 ```
-
+![capture](https://github.com/lowtsusiang/testing/blob/master/Image/polararea-month.gif?raw=true)
 
 5. Visualizing the number of trips around the 24 hours duration
 
@@ -177,7 +183,7 @@ ggplot(hourly, aes(x=arr_hour,y=total,fill=total))+
   labs(title="Polar Area Diagram", subtitle="Hourly number of trips", x="Hour", y="Total trips")
   
 ```
-
+![capture](https://github.com/lowtsusiang/testing/blob/master/Image/polararea-hour.gif?raw=true)
 
 
 A quick look at the Grab a Bike app
