@@ -8,7 +8,6 @@ date: "December 13, 2018"
 A group assignment for WQD7001: Principle Data Science, University Malaya
 
 A brief summary of this document is also available in presentation format at the link below:
-
 [Rpub link](http://rpubs.com/A1sha/Grababike).
 
 > **Introduction**
